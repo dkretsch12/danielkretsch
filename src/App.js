@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-import Header from './components/header';
+import Profile from './components/Profile';
+import Subject from './components/Subject';
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Profile/>
+        <div className="Info">
+          <Subject
+            title="Experience"
+            examples={examples.houserater}
+          />
+          <Subject title="Education"/>
+          <Subject title="Languages"/>
+          <Subject title="Tools"/>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default App;
