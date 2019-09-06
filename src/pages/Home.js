@@ -8,8 +8,8 @@ class Home extends Component {
         return (
             <div className="Info">
                 <Subject
-                    title="I am currently working on updating my website."
-                    body="Please check back soon and hopefully it'll be up by then!"
+                    title="I am currently working on migrating my website to AWS Amplify."
+                    body="I will add more content once it is migrated!"
                 />
             </div>
         )

@@ -1,0 +1,14 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "danielkretsch-test-20190905202021-authRole",
+            "UnauthRoleArn": "arn:aws:iam::181551835727:role/danielkretsch-test-20190905202021-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::181551835727:role/danielkretsch-test-20190905202021-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "danielkretsch-test-20190905202021-deployment",
+            "UnauthRoleName": "danielkretsch-test-20190905202021-unauthRole",
+            "StackName": "danielkretsch-test-20190905202021",
+            "StackId": "arn:aws:cloudformation:us-east-1:181551835727:stack/danielkretsch-test-20190905202021/7eb44e10-d044-11e9-9298-0a55488d44ba"
+        }
+    }
+}

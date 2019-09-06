@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import './App.css';
+import API, { graphqlOperation } from '@aws-amplify/api'
+import PubSub from '@aws-amplify/pubsub';
+import { createTodo } from './graphql/mutations'
+import config from './aws-exports'
 
+import './App.css';
 import Profile from './components/Profile';
 import Home from './pages/Home';
 import NotHome from './pages/NotHome';
+
+API.configure(config);
+PubSub.configure(config);
 
 class App extends Component {
     render() {
