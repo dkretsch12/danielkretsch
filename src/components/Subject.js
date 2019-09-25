@@ -6,8 +6,7 @@ class Subject extends Component {
 
     	return (
     		<div className="Subject">
-  				<h3 style={{ marginBottom: 0 }}>{title}</h3>
-  				<h5 style={{ marginBottom: 0 }}>{body}</h5>
+				<h3>{title}</h3>
     		</div>
     	);
   	}
